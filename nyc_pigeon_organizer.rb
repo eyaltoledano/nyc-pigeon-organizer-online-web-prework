@@ -36,9 +36,9 @@ def nyc_pigeon_organizer(pigeon_data)
     end
   end
 
-  populate(:color)
-  populate(:gender)
-  populate(:lives)
+  populate(:color, pigeon_list, pigeon_data)
+  populate(:gender, pigeon_list, pigeon_data)
+  populate(:lives, pigeon_list, pigeon_data)
 
   pigeon_list
 end
