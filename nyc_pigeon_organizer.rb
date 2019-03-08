@@ -1,6 +1,6 @@
 require 'pry'
 
-def populate(item)
+def populate(item, pigeon_list, pigeon_data)
   pigeon_list.each do |pigeon, data|
     data.each do |attribute, attribute_data|
         pigeon_data.each do |key,values|
