@@ -36,11 +36,9 @@ def nyc_pigeon_organizer(pigeon_data)
     end
   end
 
-  pigeon_list.each do |pigeon, data|
-    populate(:color)
-    populate(:gender)
-    populate(:lives)
-  end
+  populate(:color)
+  populate(:gender)
+  populate(:lives)
 
   pigeon_list
 end
