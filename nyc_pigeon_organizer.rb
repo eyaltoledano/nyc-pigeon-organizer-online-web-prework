@@ -1,3 +1,5 @@
+# consider refactoring using #each_with_object as well as ||=
+
 require 'pry'
 
 def populate(item, pigeon_list, pigeon_data)
