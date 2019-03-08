@@ -1,7 +1,5 @@
 require 'pry'
 
-
-
 def populate(item)
   data.each do |attribute, attribute_data|
       pigeon_data.each do |key,values|
