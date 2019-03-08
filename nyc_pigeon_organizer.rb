@@ -1,16 +1,18 @@
 require 'pry'
 
 def populate(item)
-  data.each do |attribute, attribute_data|
-      pigeon_data.each do |key,values|
-        if key == item && attribute == item
-          values.each do |trait, names|
-            if names.include?(pigeon)
-              attribute_data << trait.to_s
+  pigeon_list.each do |pigeon, data|
+    data.each do |attribute, attribute_data|
+        pigeon_data.each do |key,values|
+          if key == item && attribute == item
+            values.each do |trait, names|
+              if names.include?(pigeon)
+                attribute_data << trait.to_s
+              end
             end
           end
         end
-      end
+    end
   end
 end
 
