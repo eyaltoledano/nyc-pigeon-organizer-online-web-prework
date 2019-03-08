@@ -42,25 +42,3 @@ def nyc_pigeon_organizer(pigeon_data)
 
   pigeon_list
 end
-
-# if key == :color && attribute == :color
-#   values.each do |trait, names|
-#     if names.include?(pigeon)
-#       attribute_data << trait.to_s
-#     end
-#   end
-# end
-# if key == :gender && attribute == :gender
-#   values.each do |trait, names|
-#     if names.include?(pigeon)
-#       attribute_data << trait.to_s
-#     end
-#   end
-# end
-# if key == :lives && attribute == :lives
-#   values.each do |trait, names|
-#     if names.include?(pigeon)
-#       attribute_data << trait.to_s
-#     end
-#   end
-# end
